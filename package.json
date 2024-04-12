@@ -3,11 +3,11 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "type": "module",
+
     "scripts": {
         "start": "npx nodemon src/index.js",
-        "build": "webpack --config webpack.config.cjs --mode=production",
-        "dev": "webpack --config webpack.config.cjs --mode=development -w "
+        "build": "webpack --config webpack.config.js --mode=production",
+        "dev": "webpack --config webpack.config.js --mode=development -w "
     },
     "author": "",
     "license": "ISC",
