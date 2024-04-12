@@ -3,10 +3,9 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-
     "scripts": {
         "start": "npx nodemon src/index.js",
-        "build": "webpack --config webpack.config.js --mode=production",
+        "build": "npx webpack --config webpack.config.js --mode=production",
         "dev": "webpack --config webpack.config.js --mode=development -w "
     },
     "author": "",
